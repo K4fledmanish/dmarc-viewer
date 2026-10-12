@@ -1,0 +1,8 @@
+# Never commit real DMARC reports (they contain IPs and sending details)
+*.xml
+*.gz
+*.zip
+*.csv
+reports/
+.DS_Store
+node_modules/
